@@ -1,0 +1,138 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ejercicios_programación;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author christian_aqueveque
+ */
+public class Ejercicios_Programación {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        //Ejercicios Clase Jueves 29-08-2019
+        
+        //Ejercicio1
+        
+        Scanner read = new Scanner(System.in);
+        /*int entero = 0;
+        System.out.print("Ingrese un número: ");
+        entero = read.nextInt();
+        if(entero % 2 == 0){
+            System.out.println("El número " + entero + " es par.");
+        }else{
+            System.out.println("El número " + entero + " es impar.");
+        }
+        
+        
+        //Ejercicio2
+        
+        int num = 0;
+        int abs = 0;
+        System.out.print("Ingrese un número: ");
+        num = read.nextInt();
+        if(num > 0){
+            abs = num;
+        }else{
+            abs = -1 * num;
+        }
+        System.out.println("El valor absoluto de " + num + " es "+ abs);
+        
+        
+        //Ejercicio3
+        
+        int numero = 0;
+        System.out.print("Ingrese un número: ");
+        numero = read.nextInt();
+        if(numero >= 0){
+            if(numero == 0){
+                System.out.println("El número " + numero + " es neutro.");
+            }else{
+                System.out.println("El número " + numero + " es positivo.");
+            }
+        }else{
+            System.out.println("El número " + numero + " es negativo.");
+        }
+        
+
+        //Ejercicio4
+        
+        int numero1 = 0;
+        int numero2 = 0;
+        System.out.print("Ingrese un número: ");
+        numero1 = read.nextInt();
+        System.out.print("Ingrese otro número: ");
+        numero2 = read.nextInt();
+        if(numero1 == numero2){
+            System.out.println("Los números ingresados son iguales.");
+        }else{
+            if(numero1 > numero2){
+                System.out.println("El número " + numero1 + " es mayor.");
+            }else{
+                System.out.println("El número " + numero2 + " es mayor.");
+            }
+        }
+
+        */
+        
+        //Ejercicio5
+        
+        int ultimaCifra = 0;
+        System.out.println("Ingrese un número: ");
+        ultimaCifra = read.nextInt();
+        System.out.println("La última cifra es " + ultimaCifra % 10);
+        
+        //Ejercicios Clase Jueves 05-09-2019
+        
+        //Ejercicio 1
+        
+        int a = 0;
+        for (int i = 0; i <= 10; i++) {
+            a = a + i;
+        }
+        System.out.println(a);
+        
+        //Ejercicio 2
+        
+        /*double notas [] = new double[5];
+        double promedio = 0;
+        for (int i = 0; i < notas.length; i++) {
+            System.out.print("Ingrese una nota: ");
+            notas[i] = read.nextDouble();
+        }
+        
+        for (int i = 0; i < notas.length; i++) {
+            promedio = promedio + notas[i];
+        }
+        promedio = promedio / notas.length;
+        System.out.print("El promedio es ");
+        System.out.printf("%.1f%n", promedio);
+        //System.out.println("");
+        */
+        
+        //Ejercicio 3
+        
+        int num = 0;
+        int first = 0;
+        int last = 0;
+        for (int i = 0; i <= 10; i++) {
+            System.out.print("Ingrese un número: ");
+            num = read.nextInt();
+            if(i == 0){
+                first = num;
+            }else if(i == 10){
+                last = num;
+            }//End If
+        }//End For
+        System.out.println("El primer número es " + first + " y el último número es " + last);
+    }
+    
+}
