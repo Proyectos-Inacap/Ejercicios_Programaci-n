@@ -134,7 +134,7 @@ public class Ejercicios_Programación {
         
         //Clase Martes 10/09/2019
         
-        //Ejercicio 1
+          //Ejercicio 1
         
 //        System.out.println("Indique el lado de un cuadrado: ");
 //        double sideSquare = read.nextDouble();
@@ -145,20 +145,31 @@ public class Ejercicios_Programación {
 //        System.out.println("El área del cuadrado es: " + area);
 //        System.out.println("El perimetro del cuadrado es: " + perimetro);
 //        System.out.println("La diagonal del cuadrado es: " + diagonal);
+//
+//        //Ejercicio 2
+//        
+//        System.out.print("Ingrese el ancho del rectángulo: ");
+//        double anchoRectangle = read.nextDouble();
+//        System.out.print("Ingrese el alto del rectángulo: ");
+//        double altoRectangle = read.nextDouble();
+//        double areaRectangle = anchoRectangle * altoRectangle;
+//        double perimetroRectangle = 2 * (anchoRectangle + altoRectangle);
+//        double diagonalRectangle = (Math.pow(altoRectangle, 2)) + (Math.pow(anchoRectangle, 2));
+//        diagonalRectangle = Math.pow(diagonalRectangle, 0.5);
+//        System.out.println("El area del rectángulo es: " + areaRectangle);
+//        System.out.println("El perimetro del rectángulo es: " + perimetroRectangle);
+//        System.out.println("La diagonal del rectángulo es: " + diagonalRectangle);
 
-        //Ejercicio 2
+        //Ejercicio 3
         
-        System.out.print("Ingrese el ancho del rectángulo: ");
-        double anchoRectangle = read.nextDouble();
-        System.out.print("Ingrese el alto del rectángulo: ");
-        double altoRectangle = read.nextDouble();
-        double areaRectangle = anchoRectangle * altoRectangle;
-        double perimetroRectangle = 2 * (anchoRectangle + altoRectangle);
-        double diagonalRectangle = (Math.pow(altoRectangle, 2)) + (Math.pow(anchoRectangle, 2));
-        diagonalRectangle = Math.pow(diagonalRectangle, 0.5);
-        System.out.println("El area del rectángulo es: " + areaRectangle);
-        System.out.println("El perimetro del rectángulo es: " + perimetroRectangle);
-        System.out.println("La diagonal del rectángulo es: " + diagonalRectangle);
+        System.out.print("Ingrese el radio del círculo: ");
+        double radioCircle = read.nextDouble();
+        double areaCircle = (Math.pow(radioCircle, 2) * Math.PI);
+        double perimetroCircle = 2 * Math.PI * radioCircle;
+        double diametroCircle = 2 * radioCircle;
+        System.out.println("El área del círculo es " + areaCircle);
+        System.out.println("El perímetro del círculo es " + perimetroCircle);
+        System.out.println("El diámetro del círculo es " + diametroCircle);
     }
     
 }
