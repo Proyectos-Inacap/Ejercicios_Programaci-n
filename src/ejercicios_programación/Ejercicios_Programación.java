@@ -148,8 +148,17 @@ public class Ejercicios_Programación {
 
         //Ejercicio 2
         
-        System.out.println("Ingrese la base del rectángulo: ");
-        double baseRectangle = read.nextDouble();
+        System.out.print("Ingrese el ancho del rectángulo: ");
+        double anchoRectangle = read.nextDouble();
+        System.out.print("Ingrese el alto del rectángulo: ");
+        double altoRectangle = read.nextDouble();
+        double areaRectangle = anchoRectangle * altoRectangle;
+        double perimetroRectangle = 2 * (anchoRectangle + altoRectangle);
+        double diagonalRectangle = (Math.pow(altoRectangle, 2)) + (Math.pow(anchoRectangle, 2));
+        diagonalRectangle = Math.pow(diagonalRectangle, 0.5);
+        System.out.println("El area del rectángulo es: " + areaRectangle);
+        System.out.println("El perimetro del rectángulo es: " + perimetroRectangle);
+        System.out.println("La diagonal del rectángulo es: " + diagonalRectangle);
     }
     
 }
