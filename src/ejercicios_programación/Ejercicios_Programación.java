@@ -177,16 +177,26 @@ public class Ejercicios_Programación {
           
           //Ejercicio 1
           
-          int num = 0;
-          while(num == 0){
-              try {
-                  System.out.print("Ingrese un número: ");
-                  num = read.nextInt();
-              } catch (Exception e) {
-                  System.out.println("Entrada Errónea.");
-                  read.next();
-              }
-          }
+//          int num = 0;
+//          while(num == 0){
+//              try {
+//                  System.out.print("Ingrese un número: ");
+//                  num = read.nextInt();
+//              } catch (Exception e) {
+//                  System.out.println("Entrada Errónea.");
+//                  read.next();
+//              }
+//          }
+
+            //Clase Jueves 26/09/2019
+            
+            //Ejercicio 1
+            
+            String word = ""; //Variable para la palabra ingresada.
+            System.out.print("Ingrese su nombre: "); //Entrada del usuario.
+            word = read.nextLine(); //Almacenar en variable entrada del usuario.
+            System.out.println("Su nombre tiene " + word.length() + " caracteres."); //Mostrar el valor al usuario.
+            System.out.println("Inicia con " + word.charAt(0) + " y termina con " + word.charAt(word.length() - 1));
     }
     
 }
