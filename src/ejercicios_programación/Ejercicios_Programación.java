@@ -159,17 +159,34 @@ public class Ejercicios_Programación {
 //        System.out.println("El area del rectángulo es: " + areaRectangle);
 //        System.out.println("El perimetro del rectángulo es: " + perimetroRectangle);
 //        System.out.println("La diagonal del rectángulo es: " + diagonalRectangle);
+//
+//        //Ejercicio 3
+//        
+//        System.out.print("Ingrese el radio del círculo: ");
+//        double radioCircle = read.nextDouble();
+//        double areaCircle = (Math.pow(radioCircle, 2) * Math.PI);
+//        double perimetroCircle = 2 * Math.PI * radioCircle;
+//        double diametroCircle = 2 * radioCircle;
+//        System.out.println("El área del círculo es " + areaCircle);
+//        System.out.println("El perímetro del círculo es " + perimetroCircle);
+//        System.out.println("El diámetro del círculo es " + diametroCircle);
 
-        //Ejercicio 3
-        
-        System.out.print("Ingrese el radio del círculo: ");
-        double radioCircle = read.nextDouble();
-        double areaCircle = (Math.pow(radioCircle, 2) * Math.PI);
-        double perimetroCircle = 2 * Math.PI * radioCircle;
-        double diametroCircle = 2 * radioCircle;
-        System.out.println("El área del círculo es " + areaCircle);
-        System.out.println("El perímetro del círculo es " + perimetroCircle);
-        System.out.println("El diámetro del círculo es " + diametroCircle);
+            //Ejercicio 4
+            
+          //Ejercicios Clase Martes 24/09/2019
+          
+          //Ejercicio 1
+          
+          int num = 0;
+          while(num == 0){
+              try {
+                  System.out.print("Ingrese un número: ");
+                  num = read.nextInt();
+              } catch (Exception e) {
+                  System.out.println("Entrada Errónea.");
+                  read.next();
+              }
+          }
     }
     
 }
